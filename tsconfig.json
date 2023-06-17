@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "es6",
+        // Компилироваться код будет в 5 версию, для поддержки
+        // большинством браузеров
+        "target": "es5",
+        "jsx": "react",
+        // ПОзволяет компилятору обработать не только тс файлы, но и джс
+        "allowJs": true,
+        // Для абсолютного импорта
+        "baseUrl": ".",
+        "moduleResolution": "node",
+        // Позволяет работать с пакетами которые используют node
+        // modules exports и require с помощью импорта и экспорта
+        "esModuleInterop": true,
+        // Для поддержки дефолтного импорта, чтобы не писать импорты через
+        // звездочки в конфиге вебпака
+        "allowSyntheticDefaultImports": true
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    }
+}

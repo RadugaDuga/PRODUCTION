@@ -1,0 +1,1 @@
+(()=>{"use strict";var o;o=555465..toString(),console.log(o),document.body.innerHTML="<div>HELLO</div>"})();
